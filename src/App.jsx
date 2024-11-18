@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { useAuth } from "./AuthContext";
 import Login from "./Login";
-import Dashboard from "./Dashboard"; // Exemplo de página protegida
+import Dashboard from "./pages/Dashboard"; // Exemplo de página protegida
 
 // Componente de rota protegida
 const PrivateRoute = ({ children }) => {
