@@ -1,0 +1,22 @@
+{
+      "users": [
+            {
+                  "id": 1,
+                  "username": "admin",
+                  "password": "1234",
+                  "tasks": [
+                        { "id": 1, "taskName": "Gerenciar os Usuários" },
+                        { "id": 2, "taskName": "Gerenciar os Usuários 2" }
+                  ]
+            },
+            {
+                  "id": 2,
+                  "username": "user",
+                  "password": "5678",
+                  "tasks": [
+                        { "id": 1, "taskName": "Estudar para prova" },
+                        { "id": 2, "taskName": "Estudar para prova 2" }
+                  ]
+            }
+      ]
+}
